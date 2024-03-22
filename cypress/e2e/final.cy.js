@@ -17,7 +17,7 @@ describe('Form submission', () => {
     // uzstaditi dzimsanas dienu
     cy.get('#dateOfBirthInput').click();
     cy.get('.react-datepicker__year-select').select('1930');
-    cy.get('.react-datepicker__month-select').select('1'); // February is index 1
+    cy.get('.react-datepicker__month-select').select('1'); // Februarim index 1
     cy.get('.react-datepicker__day--028:not(.react-datepicker__day--outside-month)').click();
 
     // Uzstadit priekšmetus
